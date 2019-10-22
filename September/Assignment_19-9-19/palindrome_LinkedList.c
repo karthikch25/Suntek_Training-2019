@@ -15,7 +15,7 @@ struct Node
 char data;
 struct Node * next;
 };
-bool isPalindrome(struct Node* head)
+int isPalindrome(struct Node* head)
 {
 struct Node* p=head;
 if(p==NULL)
